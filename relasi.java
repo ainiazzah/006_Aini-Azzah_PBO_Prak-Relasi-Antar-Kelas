@@ -10,6 +10,7 @@ public class relasi{
     }
 }
 
+
 class Limas{
     double Sx1; double Sy1; double Sx2; double Sy2; double Px1; double Py1; double Px2; double Py2;
     Limas(double Sx1,double Sy1, double Sx2, double Sy2, double Px1, double Py1, double Px2, double Py2){
@@ -22,6 +23,7 @@ class Limas{
         this.Py1 = Py1;
         this.Py2 = Py2;
     }
+    
     void rumus(){
         double luas_Segitiga, luas_Persegi, luas_Limas;
         System.out.println("=== Data Segitiga ===");
@@ -39,7 +41,7 @@ class Limas{
 
         luas_Limas = (4 * luas_Segitiga) + luas_Persegi;
         System.out.println("\n\nLuas Limas : " + luas_Limas);
-        System.out.println("\ndevelop @ainiazzah");
-
+        System.out.println("\n");
     }
+    
 }
